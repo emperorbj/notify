@@ -1,0 +1,37 @@
+
+
+services:
+  mongo:
+    image: mongo:6
+    restart: always
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+    container_name: mongo-db
+    ports:
+      - "27017:27017"  
+    
+  backend:
+    env_file:
+      - ./backend/.env
+    build: ./backend
+    container_name: notify-backend
+    ports:
+      - "5000:5000"
+    
+
+    depends_on:
+      - mongo
+  frontend:
+    build: ./frontend
+    container_name: notify-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:
