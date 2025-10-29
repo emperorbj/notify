@@ -8,8 +8,8 @@ Production-ready notes app equipped with **Docker + GitHub Actions CI/CD** and d
 ## 🌍 Live Production URL  
 _To be added soon_ ✅
 
-📖 Blog: *Placeholder Link*  
-🎥 Video Demo: *Placeholder Link*
+📖 Blog: *https://dev.to/prince27/case-study-deploying-a-full-stack-mern-application-on-aws-ec2-using-docker-github-actions-4ea4*  
+🎥 Video Demo: *https://www.loom.com/share/897f49af1b274e3fba6921c842d0653b*
 
 ---
 
