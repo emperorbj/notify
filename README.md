@@ -27,9 +27,7 @@ _To be added soon_ ✅
 
 ## 🧩 Architecture Diagram
 
-![Project Architecture](./assets/project-architecture.png)
-
-> Add the architecture diagram inside `/assets` folder
+![Project Architecture](./diagram.png)
 
 ---
 
