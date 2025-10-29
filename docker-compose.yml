@@ -11,8 +11,7 @@ services:
       - "5000:5000"
     
 
-    depends_on:
-      - mongo
+    
   frontend:
     build: ./frontend
     container_name: notify-frontend
