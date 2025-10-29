@@ -142,11 +142,11 @@ const Index = () => {
       <header className="sticky top-0 z-10 backdrop-blur-lg bg-background/80 border-b border-border/50">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <div>
+            <div className="flex gap-2">
               <h1 className="text-3xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
                 Notify
               </h1>
-              <p className="text-sm text-muted-foreground mt-1">
+              <p className="text-sm p-0.5 text-muted-foreground mt-1 w-4 h-4 rounded-full bg-red-500">
                 {data?.count || 0} {data?.count === 1 ? "note" : "notes"}
               </p>
             </div>
