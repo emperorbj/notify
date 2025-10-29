@@ -144,7 +144,7 @@ const Index = () => {
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-                My Notes
+                My Note
               </h1>
               <p className="text-sm text-muted-foreground mt-1">
                 {data?.count || 0} {data?.count === 1 ? "note" : "notes"}

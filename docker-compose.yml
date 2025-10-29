@@ -9,9 +9,7 @@ services:
     container_name: notify-backend
     ports:
       - "5000:5000"
-    
 
-    
   frontend:
     build: ./frontend
     container_name: notify-frontend
