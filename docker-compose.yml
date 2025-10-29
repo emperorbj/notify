@@ -29,7 +29,7 @@ services:
     build: ./frontend
     container_name: notify-frontend
     ports:
-      - "5173:80"
+      - "80:80"
     depends_on:
       - backend
 
